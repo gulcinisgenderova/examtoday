@@ -1,0 +1,55 @@
+ 
+ 
+ .centerNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .iconBox{
+        display: flex;
+        gap: 30px;
+    }
+    .lis{
+        color:black;
+        display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 30px;
+        li{
+            list-style: none;
+            
+        }
+        Link{
+            color: black;
+            
+        }
+    }
+
+}
+.linkStyle  {
+    margin: "1rem";
+    text-decoration: none;
+    color: black;
+  }
+  .linkStyle:hover{
+    color: orangered;
+  }
+  @media only screen and (max-width: 768px) {
+    .centerNav{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px; 
+        justify-content: center;
+        align-items: center;
+        // padding: 20px;
+        // margin-bottom: 150px;
+        .iconBox{
+            display: flex;
+            gap: 0px;
+        }
+        .lis{
+            display: flex;
+            gap: 0px;
+        }
+    }
+  }
+  

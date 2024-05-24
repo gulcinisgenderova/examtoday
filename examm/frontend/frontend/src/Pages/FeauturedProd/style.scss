@@ -1,0 +1,41 @@
+
+.hovSh{
+    width: 300px;
+    height: 300px;
+}
+.cards{
+    width: 300px;
+    height: 300px;
+    .basketButton{
+        border: none;
+    }
+}
+.carBox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+    padding: 20px;
+    // margin-bottom: 150px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.futureCenter{
+    padding: 20px;
+    padding-top: 40px;
+}
+@media only screen and (max-width: 768px) {
+    .carBox{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px; 
+        justify-content: center;
+        align-items: center;
+        // padding: 20px;
+        // margin-bottom: 150px;
+    }
+  }
+  
